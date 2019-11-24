@@ -15,3 +15,6 @@ cp plugins.ini /srv/rutorrent/conf
 cp access.ini /srv/rutorrent/conf
 
 cp logo-light.png /srv/rutorrent/home/img
+
+cp custom.menu.php /srv/rutorrent/home/custom/
+cp index.html /srv/rutorrent/
