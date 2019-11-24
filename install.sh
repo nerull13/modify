@@ -10,3 +10,8 @@ sed -i -r "s/.*rsa_cert_file*/rsa_cert_file=/etc/ssl/certs/vsftpdcertificate.pem
 sed -i -r "s/.*rsa_private_key_file*/rsa_private_key_file=/etc/ssl/private/vsftpdserverkey.pem/g" /etc/vsftpd.conf
 
 box install letsencrypt
+
+cp plugins.ini /srv/rutorrent/conf
+cp access.ini /srv/rutorrent/conf
+
+cp logo-light.png /srv/rutorrent/home/img
