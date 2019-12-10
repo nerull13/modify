@@ -1,7 +1,7 @@
 <?php
 
 $quickboxURL = "https://www.secretseed.net";
-$yggURL = "https://yggtorrent.com/";
+$yggURL = "https://yggtorrent.ws/";
 $torrent9URL = "https://www.torrent9.ch/";
 $cloudURL = "https://myseedbox.secretseed.net/nextcloud/";
 ?> <!-- Do not remove this closing (?>) -->
