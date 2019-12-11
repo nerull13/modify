@@ -11,6 +11,8 @@ sed -i -r "s/.*rsa_private_key_file*/rsa_private_key_file=/etc/ssl/private/vsftp
 
 box install letsencrypt
 
+apt-get install postfix mutt
+
 cp plugins.ini /srv/rutorrent/conf
 cp access.ini /srv/rutorrent/conf
 
