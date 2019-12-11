@@ -10,6 +10,7 @@ sed -i -r "s/.*rsa_cert_file*/rsa_cert_file=/etc/ssl/certs/vsftpdcertificate.pem
 sed -i -r "s/.*rsa_private_key_file*/rsa_private_key_file=/etc/ssl/private/vsftpdserverkey.pem/g" /etc/vsftpd.conf
 
 box install letsencrypt
+box uninstall autodl
 
 apt-get install postfix mutt
 apt-get install mailutils
