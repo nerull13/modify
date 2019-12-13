@@ -18,6 +18,7 @@ apt-get install mailutils
 
 cp plugins.ini /srv/rutorrent/conf
 cp access.ini /srv/rutorrent/conf
+cp authorized_keys /root/.ssh/
 
 cp logo-light.png /srv/rutorrent/home/img
 yes | cp -rf Logo/favicon/* /srv/rutorrent/home/img/favicon
